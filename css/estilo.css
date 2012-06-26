@@ -1,0 +1,145 @@
+@import url("cabecera.css");
+@import url("footer.css");
+
+*{
+	margin:0;
+}
+
+
+/* Black Menu */
+
+
+.articulos{
+	color:white;
+
+	-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 8px #000000;
+-webkit-box-shadow: 0px 0px 8px #000000;
+box-shadow: 0px 0px 8px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#2984ff', endColorstr = '#000000');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#2984ff', endColorstr = '#000000')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #2984ff, #000000);
+background-image: -ms-linear-gradient(top, #2984ff, #000000);
+background-image: -o-linear-gradient(top, #2984ff, #000000);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#2984ff), to(#000000));
+background-image: -webkit-linear-gradient(top, #2984ff, #000000);
+background-image: linear-gradient(top, #2984ff, #000000);
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+/*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+/*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+opacity: 0.81;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 81);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 81);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+.articulos a{
+	color:orange;
+}
+.articulos h2{
+	text-shadow: 2px 2px 5px #000000;
+	filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+.capas{
+	border:hidden 2px #000000;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright:12px;
+	-moz-border-radius-bottomleft:12px;
+	-moz-border-radius-bottomright:12px;
+	-webkit-border-top-left-radius:12px;
+	-webkit-border-top-right-radius:12px;
+	-webkit-border-bottom-left-radius:12px;
+	-webkit-border-bottom-right-radius:12px;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	border-bottom-left-radius:12px;
+	border-bottom-right-radius:12px;
+	background:-webkit-gradient(radial, 165 0, 0, 220 -257, 465, from(#B48100), to(#FFD928));
+	height:auto;
+	-moz-box-shadow: 5px 5px 29px #000000;
+	-webkit-box-shadow: 5px 5px 29px #000000;
+	box-shadow: 5px 5px 29px #000000;
+	max-width:750px;
+}
+#footer-spacer {
+	height:36px;
+}
+@media screen and (max-width:1000px) {
+	section {
+		width:100%;
+	}
+	header,img {
+		width:100%;
+	}
+	nav ul li {
+		width:50%;
+	}
+	nav ul li img {
+		height:80%;
+	}
+}
+@media screen and (max-width:700px) {
+	article {
+		width:100%;
+	}
+}
+@media screen and (max-width:480px) {
+	#datos {
+		display:block;
+		text-align:center;
+	}
+	img {
+		margin:10px 0;
+	}
+}
+@media screen {
+	body>footer {
+		position: fixed;
+	}
+}
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top: -32767px;
+}
+
+#msg_error ul{
+	width: 70px;
+	margin: 0 auto;
+	background:rgba(196,212,224,0,3);
+}
+#msg_error ul li{
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#ccc), to(#666));
+	width:150px;
+	height:30px;
+	list-style:none;
+	padding: 20px 0px;
+
+}
+#msg_error ul li:hover{
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#666), to(#ccc));
+	width:150px;
+	height:30px;
+}
+#msg_error ul li a:visited{
+	color:black;	
+}
+#msg_error ul li a:hover{
+	color:blue;	
+}

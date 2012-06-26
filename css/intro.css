@@ -1,0 +1,80 @@
+body{
+	background-color:#e7e7e7;
+	font-family:"Georgia";
+	font-size:16px;
+}
+
+article{
+	background: white;
+}
+article section a{
+	font-size:2em;
+	margin: 200px 0px 0px 60px;
+	text-decoration:none;
+}
+article section a:visited{
+	color:black;
+}
+article section a:hover{
+	border-bottom:4px solid #999;
+	font-size:2em;
+	margin: 200px 0px 0px 60px;
+	text-decoration:none;
+}
+footer{
+	background: #666;
+}
+footer p{
+	color: white;
+	font-size:1em;
+	padding: 0px auto;
+}
+
+header{
+	background-color: white;
+	background-image: url();
+}
+header h1{
+	color: #22416f;
+	padding: 10px 0px 10px 0px;
+}
+header h2{
+		color:olive;
+		text-align:center;
+}
+nav{
+	background-color:#666;
+	height:30px;
+}
+nav ul li{
+	display: inline;
+	padding: 0px 20px 0px 20px;
+}
+nav ul li a{
+	color: white;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	color:red;
+	text-decoration:none;
+}
+#boton{
+	height:50px;
+	position: absolute;
+	width:300px;
+	padding: 40px 0px;
+}
+#boton:hover{
+	background-color:orange;
+	color: white;
+	height:50px;
+	padding: 40px 0px;
+	position: absolute;
+	width:300px;
+}
+.datos{
+	background: #DDD;
+	margin-left:305px;
+	height:110px;
+	width:70%;
+}

@@ -16,4 +16,7 @@ Direccion: Archivo Regional de Puno
            Telefono :  051 - 365910
            email: archivoregionalpuno@arp.org.pe
            web : www.arp.org.pe
+Colaboradores:
+           Deivis Jhonatan Sanchez Medina
+           Yunior Aquise Villata
 2012
